@@ -1,0 +1,67 @@
+/*****************
+ * isLading
+ *****************/
+export const LOADING = {
+  IS_LOADING: "IS_LOADING",
+};
+
+/****************
+      TOKEN
+*****************/
+export const TOKEN = {
+  GET: "GET_TOKEN",
+};
+
+export const HEADERS = {
+  URL: 'https://api.themoviedb.org/3/',
+  API_KEY:'43609214e36cf5bd95ba7d69e91c9779',
+  TOKEN:
+    "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0MzYwOTIxNGUzNmNmNWJkOTViYTdkNjllOTFjOTc3OSIsInN1YiI6IjYxZGI4MTJkMGJiMDc2MDA0MGYyNTIzNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.0nFbMWC82Wuwg3nINsfOfkLfK46jpXc6_Obe13JZ11I",
+  USERNAME: "",
+  PASSWORD: "",
+};
+
+/****************
+      MODAL
+*****************/
+export const MODALS = {
+  IS_MODAL_OPEN: "IS_MODAL_OPEN",
+  MODAL_TYPE: "MODAL_TYPE",
+};
+
+/****************
+      AUTH
+*****************/
+export const AUTH = {
+  FETCH_DATAS: "FETCH_DATAS",
+  GET_ERRORS: "GET_ERRORS",
+  TEST_DISPATCH: "TEST_DISPATCH",
+  SET_CURRENT_USER: "SET_CURRENT_USER",
+  SET_LOGGED_USER: "SET_LOGGED_USER",
+};
+export const REGISTER = {
+  PROCESS: "SET_REGISTER_PROCESS",
+  SUCCESS: "SET_REGISTER_SUCCESS",
+  FAILED: "SET_REGISTER_FAILED",
+  SETEMAIL: "SET_EMAIL",
+};
+
+
+
+
+
+/****************
+ HOME
+ *****************/
+export const HOME = {
+  LOADING: "SET_HOME_LOADING",
+  SUCCESS: "SET_HOME_SUCCESS",
+  LOADING_DETAIL: "SET_HOME_LOADING_DETAIL",
+  SUCCESS_DETAIL: "SET_HOME_SUCCESS_DETAIL",
+  LOADING_DETAIL_CREDITS: "SET_HOME_LOADING_DETAIL_CREDITS",
+  SUCCESS_DETAIL_CREDITS: "SET_HOME_SUCCESS_DETAIL_CREDITS",
+  SUCCESS_NEWEST: "SET_HOME_SUCCESS_NEWEST",
+  FAILED: "SET_HOME_FAILED",
+  DETAIL: "SET_HOME_DETAIL",
+  POST_LOADING: "SET_HOME_POST_LOADING",
+};
